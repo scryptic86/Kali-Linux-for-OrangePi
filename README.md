@@ -7,7 +7,8 @@ I am creating this repository because it feels like support for my new Orange Pi
 
 I am building Kali Rolling Releases for each desktop environment as well as a CLI version using the official [Kali ARM build script](https://www.kali.org/docs/development/arm-build-scripts/).
 
-<img width="144" height="144" alt="download-orange-pi-os" src="https://github.com/user-attachments/assets/82b10acf-7b32-4017-9369-c41289b1c0a9" />![kali-everywhere-arm](https://github.com/user-attachments/assets/6c5a7f9d-9006-4996-b870-2c253c044b99)#
+<img width="144" height="144" alt="download-orange-pi-os" src="https://github.com/user-attachments/assets/82b10acf-7b32-4017-9369-c41289b1c0a9" /><img width="225" height="225" alt="Kali-ARM-Chip" src="https://github.com/user-attachments/assets/526796c1-f7f5-4889-a45f-247c31a782cc" />
+
 
 
 These images were built with Swap DISABLED. I'm sure most of you know how to enable it if needed but here is a quick step-by-step just in case.(I cheated with A.I. ;))
