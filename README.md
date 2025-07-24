@@ -13,7 +13,7 @@ I am building Kali Rolling Releases for each desktop environment as well as a CL
 
 
 
-These images were built with Swap DISABLED. I'm sure most of you know how to enable it if needed but here is a quick step-by-step just in case.(I cheated with A.I. ;))
+These images were built with Swap DISABLED. I'm sure most of you know how to enable it if needed but here is a quick step-by-step just in case.
 
 Here’s an easy, step-by-step procedure to enable swap on Kali Linux using a swap file. This method works on most modern systems and does not require repartitioning your disk.
 
