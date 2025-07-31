@@ -11,51 +11,6 @@ I am building Kali Rolling Releases for each desktop environment as well as a CL
 
 <img width="144" height="144" alt="download-orange-pi-os" src="https://github.com/user-attachments/assets/82b10acf-7b32-4017-9369-c41289b1c0a9" /><img width="225" height="225" alt="Kali-ARM-Chip" src="https://github.com/user-attachments/assets/526796c1-f7f5-4889-a45f-247c31a782cc" />
 
-
-
-These images were built with Swap DISABLED. I'm sure most of you know how to enable it if needed but here is a quick step-by-step just in case.
-
-Here’s an easy, step-by-step procedure to enable swap on Kali Linux using a swap file. This method works on most modern systems and does not require repartitioning your disk.
-
-1. Check Existing Swap
-Open a terminal and run:
-
-swapon --show
-or
-free -h
-
-If nothing is listed under swap, you currently have no swap enabled.
-
-3. Create a Swap File
-Decide how much swap you want (e.g., 2G for 2 gigabytes):
-
-sudo fallocate -l 2G /swapfile
-
-If fallocate is unavailable, use:
-
-sudo dd if=/dev/zero of=/swapfile bs=1M count=2048
-
-3. Set Correct Permissions
-For security, restrict access to root:
-
-sudo chmod 600 /swapfile
-
-4. Format the File as Swap
-
-sudo mkswap /swapfile
-
-5. Enable the Swap File
-
-sudo swapon /swapfile
-
-6. Verify Swap Is Active
-   
-swapon --show
-free -h
-
-You should now see the swap file listed and the swap total increased.
-
-7. Make Swap Permanent (Optional but Recommended)
    
 To ensure swap is enabled after reboot, add it to /etc/fstab:
 
