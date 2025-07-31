@@ -11,10 +11,3 @@ I am building Kali Rolling Releases for each desktop environment as well as a CL
 
 <img width="144" height="144" alt="download-orange-pi-os" src="https://github.com/user-attachments/assets/82b10acf-7b32-4017-9369-c41289b1c0a9" /><img width="225" height="225" alt="Kali-ARM-Chip" src="https://github.com/user-attachments/assets/526796c1-f7f5-4889-a45f-247c31a782cc" />
 
-   
-To ensure swap is enabled after reboot, add it to /etc/fstab:
-
-echo '/swapfile swap swap defaults 0 0' | sudo tee -a /etc/fstab
-
-That’s it!
-You have enabled swap on Kali Linux, and it will persist after reboot if you completed step 7. If you ever want to remove the swap, simply reverse these steps by disabling swap (sudo swapoff /swapfile), removing the /swapfile entry from /etc/fstab, and deleting the file.
